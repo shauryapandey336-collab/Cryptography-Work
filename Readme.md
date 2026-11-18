@@ -1,130 +1,110 @@
-# 🔐 Cryptography Practical File
+# 🔐 CyberVault
+### Exploring Cybersecurity | Cryptography | Network Security
 
-**Course Code:** CSL0509[P]  
-**Subject:** Cryptography  
-**University:** ITM University, Gwalior  
-**Semester:** 5th Semester  
+**CyberVault** is a cybersecurity learning and practical implementation repository focused on cryptography, information security, network analysis, and secure communication.
 
----
+This repository contains hands-on experiments, implementations, documentation, and security concepts developed as part of academic learning and continuous technical exploration.
 
-## 👨‍🎓 Submitted By
-
-**Name:** Shaurya Pandey  
-**Enrollment Number:** BETN1AI24029  
-**Course:** B.Tech – Computer Science and Engineering  
-**Specialization:** Artificial Intelligence & Machine Learning  
-**Semester:** 5th Semester  
-
-## 👨‍🏫 Submitted To
-
-**Mr. Hirendra Senger**  
-Assistant Professor  
-ITM University, Gwalior
-
----
-
-## 📌 About This Repository
-
-This repository contains all **12 Cryptography Lab Experiments** performed as part of the CSL0509[P] practical course at ITM University, Gwalior.
-
-The practicals focus on understanding cryptographic algorithms, encryption and decryption techniques, hashing, digital signatures, public-key cryptography, digital certificates, and secure network communication.
-
-The experiments include implementations using Python, Java, OpenSSL, and Wireshark.
+The goal is to build a strong foundation in cybersecurity while gradually expanding into advanced security concepts and real-world projects.
 
 ---
 
 ## 🎯 Objectives
 
-- Understand the fundamentals of cryptography.
-- Implement classical encryption and decryption algorithms.
-- Study symmetric and asymmetric encryption techniques.
-- Understand hashing and digital signature verification.
-- Generate and inspect digital certificates.
-- Explore secure key exchange mechanisms.
-- Analyze encrypted and unencrypted network traffic.
-- Identify secure and insecure communication protocols.
+- Understand fundamental and advanced cryptographic concepts.
+- Implement encryption and decryption algorithms.
+- Explore symmetric and asymmetric cryptography.
+- Understand hashing, authentication, and digital signatures.
+- Analyze secure and insecure network communication.
+- Explore TLS, HTTPS, VPNs, and digital certificates.
+- Develop practical knowledge of information and network security.
+- Build a foundation for future cybersecurity projects.
 
 ---
 
-## 🧪 List of Experiments
+## 🧪 Practical Experiments
 
-| S. No. | Experiment Name |
-|:---:|---|
-| 01 | Implementation of Caesar, Vigenère and Rail Fence Ciphers |
-| 02 | Frequency Analysis of Classical Ciphers |
-| 03 | Comparison of DES and AES Encryption |
-| 04 | RSA Key Generation and File Encryption/Decryption Using OpenSSL |
-| 05 | SHA-256 Hashing and Digital Signature Verification |
-| 06 | Creation and Inspection of Self-Signed X.509 Digital Certificate |
-| 07 | Implementation of RSA and Diffie-Hellman Algorithms |
-| 08 | AES Encryption and SHA-256 Hashing for Securing Text Messages |
-| 09 | Password Hashing With and Without Salting |
-| 10 | Capture HTTPS Traffic and Identify TLS Handshake, Certificates and Cipher Suites |
-| 11 | Capture and Analyze Encrypted VPN Traffic |
-| 12 | Analyze Network Packets to Identify Secure and Insecure Communication Protocols |
+This repository currently includes 12 cryptography and network security experiments.
+
+| # | Experiment | Technology |
+|---|---|---|
+| 01 | Caesar, Vigenère and Rail Fence Ciphers | Python |
+| 02 | Frequency Analysis of Classical Ciphers | Python |
+| 03 | Comparison of DES and AES Encryption | Python |
+| 04 | RSA Key Generation and File Encryption/Decryption | OpenSSL |
+| 05 | SHA-256 Hashing and Digital Signature Verification | OpenSSL |
+| 06 | Self-Signed X.509 Digital Certificate Creation and Inspection | OpenSSL |
+| 07 | RSA and Diffie-Hellman Algorithms | Java |
+| 08 | AES Encryption and SHA-256 Hashing | Java |
+| 09 | Password Hashing With and Without Salting | Java |
+| 10 | HTTPS Traffic and TLS Handshake Analysis | Wireshark |
+| 11 | Encrypted VPN Traffic Analysis | Wireshark |
+| 12 | Secure and Insecure Protocol Identification | Wireshark |
 
 ---
 
-## 🛠️ Technologies & Tools Used
+## 🛠️ Technology Stack
 
-| Technology / Tool | Purpose |
+| Category | Tools & Technologies |
 |---|---|
-| Python 3.x | Cryptographic algorithm implementation |
-| Java JDK | RSA, Diffie-Hellman, AES and hashing |
-| OpenSSL | Key generation, encryption and digital signatures |
-| Wireshark | Network traffic and packet analysis |
-| VS Code | Code development and execution |
-| Cryptool | Cryptographic algorithm visualization |
-| Command Prompt | Executing OpenSSL commands |
+| Programming Languages | Python, Java |
+| Cryptographic Tools | OpenSSL, CryptoTool |
+| Network Analysis | Wireshark |
+| Development Environment | Visual Studio Code |
+| Security Concepts | RSA, AES, DES, SHA-256, TLS, VPN |
 
 ---
 
-## 🔑 Key Concepts Covered
+## 🔑 Key Areas of Exploration
 
-### 1. Classical Cryptography
-- Caesar Cipher
-- Vigenère Cipher
-- Rail Fence Cipher
-- Frequency Analysis
+### 1. Cryptography
+- Classical Encryption Algorithms
+- Symmetric Encryption
+- Asymmetric Encryption
+- RSA and Diffie-Hellman
+- AES and DES
 
-### 2. Symmetric Encryption
-- DES (Data Encryption Standard)
-- AES (Advanced Encryption Standard)
-- AES-GCM
-- CBC Mode
-
-### 3. Asymmetric Cryptography
-- RSA Encryption and Decryption
-- Diffie-Hellman Key Exchange
-- Public and Private Key Generation
-
-### 4. Hashing and Digital Signatures
+### 2. Data Integrity & Authentication
 - SHA-256 Hashing
-- Digital Signature Generation
-- Digital Signature Verification
+- Digital Signatures
 - Password Hashing
 - Salt Generation
-
-### 5. Digital Certificates and Network Security
 - X.509 Digital Certificates
-- Self-Signed Certificates
-- HTTPS and TLS Handshake
+
+### 3. Network Security
+- HTTPS and TLS Communication
 - VPN Traffic Analysis
-- Secure and Insecure Protocol Identification
+- Packet Inspection
+- Secure vs. Insecure Protocols
+- Network Communication Analysis
 
 ---
 
-## 🚀 Installation & Requirements
+## ⚙️ Getting Started
 
-Make sure the following tools are installed on your system:
+### Prerequisites
 
-1. Python 3.x
-2. Java JDK 8 or above
-3. OpenSSL
-4. Wireshark
-5. Visual Studio Code or any suitable IDE
+Install the following tools before running the experiments:
 
-### Verify Installations
+- Python 3.x
+- Java JDK 8 or above
+- OpenSSL
+- Wireshark
+- Visual Studio Code or any suitable IDE
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/YOUR-USERNAME/CyberVault.git
+```
+
+### Navigate to the Project
+
+```bash
+cd CyberVault
+```
+
+### Verify Installed Tools
 
 ```bash
 python --version
@@ -132,22 +112,64 @@ java -version
 openssl version
 ```
 
+Open the required experiment files and follow their respective instructions to execute the practicals.
+
 ---
 
-## ▶️ How to Use This Repository
+## 📈 Future Roadmap
 
-1. Clone this repository:
+CyberVault will continue evolving with additional cybersecurity concepts, practical implementations, and projects.
 
-```bash
-git clone <YOUR_REPOSITORY_URL>
-```
+Planned areas of exploration:
 
-2. Open the project folder in VS Code.
+- [ ] Linux Fundamentals and Security
+- [ ] Networking Fundamentals
+- [ ] Ethical Hacking Fundamentals
+- [ ] Web Application Security
+- [ ] OWASP Top 10 Vulnerabilities
+- [ ] Penetration Testing Fundamentals
+- [ ] Vulnerability Assessment
+- [ ] Python Security Automation
+- [ ] Digital Forensics
+- [ ] Security Projects and Case Studies
 
-3. Navigate to the required experiment folder or source file.
+---
 
-4. Execute the Python or Java programs using the appropriate compiler/interpreter.
+## 📚 Learning Philosophy
 
-5. For OpenSSL experiments, execute the provided commands in Command Prompt or Terminal.
+Cybersecurity is best understood through practical implementation and continuous experimentation.
 
-6. For network analysis experiments, use Wireshark to capture
+CyberVault follows a hands-on learning approach:
+
+Learn → Implement → Analyze → Experiment → Improve**
+
+Every experiment aims to strengthen conceptual understanding and practical problem-solving skills.
+
+---
+
+ ⚠️ Disclaimer
+
+This repository is intended strictly for educational and research purposes.
+
+All security experiments and network analysis activities should be conducted only on systems, networks, and environments for which proper authorization has been obtained.
+
+The author does not support unauthorized access, malicious activities, or misuse of security tools.
+
+---
+
+ 👨‍💻 Author
+
+Shaurya Pandey
+
+B.Tech – Computer Science and Engineering (AI & ML)  
+ITM University, Gwalior, India
+
+Academic Course: Cryptography (CSL0509[P])  
+Semester: 5th
+
+
+
+
+If you find this repository useful for learning cryptography and cybersecurity, consider giving it a star ⭐.
+
+**CyberVault — Learn Security. Build Knowledge. Think Beyond.**
