@@ -40,6 +40,8 @@ This repository currently includes 12 cryptography and network security experime
 | 10 | HTTPS Traffic and TLS Handshake Analysis | Wireshark |
 | 11 | Encrypted VPN Traffic Analysis | Wireshark |
 | 12 | Secure and Insecure Protocol Identification | Wireshark |
+| 13 | Password Auditing and Password Strength Evaluation | John the Ripper, Kali Linux |
+| 14 | SSH/RSA Key Generation and Passwordless Authentication Between Linux Systems | OpenSSH, Linux |
 
 ---
 
@@ -91,6 +93,8 @@ Install the following tools before running the experiments:
 - OpenSSL
 - Wireshark
 - Visual Studio Code or any suitable IDE
+- Kali linux
+- virtual box
 
 ### Clone the Repository
 
@@ -166,6 +170,7 @@ ITM University, Gwalior, India
 
 Academic Course: Cryptography (CSL0509[P])  
 Semester: 5th
+Submiitted to - Mr. Hirendra Singh Senger (Assistant Professor of itm university)
 
 
 
