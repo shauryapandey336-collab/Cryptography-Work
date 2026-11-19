@@ -1,30 +1,9 @@
 # 🔐 CyberVault
 ### Exploring Cybersecurity | Cryptography | Network Security
 
-**CyberVault** is a cybersecurity learning and practical implementation repository focused on cryptography, information security, network analysis, and secure communication.
-
-This repository contains hands-on experiments, implementations, documentation, and security concepts developed as part of academic learning and continuous technical exploration.
-
-The goal is to build a strong foundation in cybersecurity while gradually expanding into advanced security concepts and real-world projects.
-
----
-
-## 🎯 Objectives
-
-- Understand fundamental and advanced cryptographic concepts.
-- Implement encryption and decryption algorithms.
-- Explore symmetric and asymmetric cryptography.
-- Understand hashing, authentication, and digital signatures.
-- Analyze secure and insecure network communication.
-- Explore TLS, HTTPS, VPNs, and digital certificates.
-- Develop practical knowledge of information and network security.
-- Build a foundation for future cybersecurity projects.
-
----
-
 ## 🧪 Practical Experiments
 
-This repository currently includes 12 cryptography and network security experiments.
+This repository currently includes **14 cryptography and network security experiments**.
 
 | # | Experiment | Technology |
 |---|---|---|
@@ -40,6 +19,8 @@ This repository currently includes 12 cryptography and network security experime
 | 10 | HTTPS Traffic and TLS Handshake Analysis | Wireshark |
 | 11 | Encrypted VPN Traffic Analysis | Wireshark |
 | 12 | Secure and Insecure Protocol Identification | Wireshark |
+| 13 | Password Auditing and Password Strength Evaluation | John the Ripper, Kali Linux |
+| 14 | SSH/RSA Key Generation and Passwordless Authentication Between Linux Systems | OpenSSH, Linux |
 
 ---
 
@@ -48,10 +29,13 @@ This repository currently includes 12 cryptography and network security experime
 | Category | Tools & Technologies |
 |---|---|
 | Programming Languages | Python, Java |
-| Cryptographic Tools | OpenSSL, CryptoTool |
+| Cryptographic Tools | OpenSSL, CrypTool 2 |
 | Network Analysis | Wireshark |
+| Password Security | John the Ripper |
+| Secure Remote Access | OpenSSH, SSH, RSA |
+| Operating Systems | Windows, Linux, Kali Linux |
 | Development Environment | Visual Studio Code |
-| Security Concepts | RSA, AES, DES, SHA-256, TLS, VPN |
+| Security Concepts | RSA, AES, DES, SHA-256, TLS, VPN, SSH |
 
 ---
 
@@ -78,6 +62,15 @@ This repository currently includes 12 cryptography and network security experime
 - Secure vs. Insecure Protocols
 - Network Communication Analysis
 
+### 4. Password & Linux Security
+- Password Auditing Using John the Ripper
+- Password Strength Evaluation
+- Dictionary-Based Password Auditing
+- SSH Key Generation
+- RSA Public and Private Keys
+- Passwordless SSH Authentication
+- Linux Remote System Access
+
 ---
 
 ## ⚙️ Getting Started
@@ -90,29 +83,10 @@ Install the following tools before running the experiments:
 - Java JDK 8 or above
 - OpenSSL
 - Wireshark
+- John the Ripper
+- OpenSSH Client and Server
+- Kali Linux or Ubuntu (for Linux-based experiments)
 - Visual Studio Code or any suitable IDE
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/YOUR-USERNAME/CyberVault.git
-```
-
-### Navigate to the Project
-
-```bash
-cd CyberVault
-```
-
-### Verify Installed Tools
-
-```bash
-python --version
-java -version
-openssl version
-```
-
-Open the required experiment files and follow their respective instructions to execute the practicals.
 
 ---
 
@@ -141,35 +115,6 @@ Cybersecurity is best understood through practical implementation and continuous
 
 CyberVault follows a hands-on learning approach:
 
-Learn → Implement → Analyze → Experiment → Improve**
+**Learn → Implement → Analyze → Experiment → Improve**
 
 Every experiment aims to strengthen conceptual understanding and practical problem-solving skills.
-
----
-
- ⚠️ Disclaimer
-
-This repository is intended strictly for educational and research purposes.
-
-All security experiments and network analysis activities should be conducted only on systems, networks, and environments for which proper authorization has been obtained.
-
-The author does not support unauthorized access, malicious activities, or misuse of security tools.
-
----
-
- 👨‍💻 Author
-
-Shaurya Pandey
-
-B.Tech – Computer Science and Engineering (AI & ML)  
-ITM University, Gwalior, India
-
-Academic Course: Cryptography (CSL0509[P])  
-Semester: 5th
-
-
-
-
-If you find this repository useful for learning cryptography and cybersecurity, consider giving it a star ⭐.
-
-**CyberVault — Learn Security. Build Knowledge. Think Beyond.**
